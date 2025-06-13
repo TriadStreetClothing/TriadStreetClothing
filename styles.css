@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background-color: #000;
+    color: white;
+    font-family: 'Arial Black', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    background-color: #111;
+}
+.logo img {
+    height: 60px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.hero {
+    text-align: center;
+    padding: 4rem 0;
+}
+.hero img {
+    width: 80%;
+    max-width: 1000px;
+    height: auto;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #111;
+    font-size: 0.9rem;
+}
